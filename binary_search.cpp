@@ -74,7 +74,7 @@ int binary(vector<int>& arr, int target) {
 
     for(int i = 0; i < n; i++) {
         outArr.push_back(arr[i]);
-        cout << outArr[i] << " ";
+        cout << outArr[i] << ", ";
     }
 
     int left = 0;
